@@ -9,8 +9,8 @@ const Footer = () => {
           {/* Location */}
           <div>
             <h3 className="text-lg font-bold mb-4">Visit Us</h3>
-            <p className="mb-2">123 Pizza Lane</p>
-            <p className="mb-2">Your City, ST 12345</p>
+            <p className="mb-2">21 High Street</p>
+            <p className="mb-2">Hampton, NH 03842</p>
             <p className="mb-2">
               <a href="tel:+15551234567" className="hover:text-red-200">
                 (555) 123-4567
@@ -21,9 +21,9 @@ const Footer = () => {
           {/* Hours */}
           <div>
             <h3 className="text-lg font-bold mb-4">Hours</h3>
-            <p className="mb-2">Monday - Thursday: 11am - 10pm</p>
-            <p className="mb-2">Friday - Saturday: 11am - 12am</p>
-            <p className="mb-2">Sunday: 12pm - 9pm</p>
+            <p className="mb-2">Monday - Thursday: 11am - 7pm</p>
+            <p className="mb-2">Friday - Saturday: 11am - 7:30pm</p>
+            <p className="mb-2">Sunday: Closed</p>
           </div>
           
           {/* Social Links */}
