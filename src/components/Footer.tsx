@@ -12,8 +12,8 @@ const Footer = () => {
             <p className="mb-2">21 High Street</p>
             <p className="mb-2">Hampton, NH 03842</p>
             <p className="mb-2">
-              <a href="tel:+15551234567" className="hover:text-red-200">
-                (555) 123-4567
+              <a href="tel:+16039297200" className="hover:text-red-200">
+                (603) 929-7200
               </a>
             </p>
           </div>
@@ -53,7 +53,7 @@ const Footer = () => {
               
               {/* Instagram */}
               <a 
-                href="https://instagram.com" 
+                href="https://www.instagram.com/zestopizzahamptonnh/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="hover:text-red-200"

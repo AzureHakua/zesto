@@ -51,8 +51,8 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Fast Delivery</h3>
-              <p className="text-gray-600">Hot pizza delivered to your door in 30 minutes or less, guaranteed.</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Comfort and Convenience</h3>
+              <p className="text-gray-600">Fast delivery or convenient pickup - you choose how to enjoy your perfect pizza.</p>
             </div>
             
             {/* Feature 3 */}
@@ -63,7 +63,7 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Artisan Quality</h3>
-              <p className="text-gray-600">Handcrafted by our expert pizza chefs with decades of experience.</p>
+              <p className="text-gray-600">Handcrafted by our expert pizza chefs dedicated to perfection.</p>
             </div>
           </div>
         </div>

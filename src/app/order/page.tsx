@@ -80,15 +80,15 @@ export default function Order() {
             <div className="mb-6">
               <div className="p-4 border border-gray-200 rounded-lg">
                 <p className="font-medium">Zesto Pizza - Main Location</p>
-                <p className="text-gray-600">123 Pizza Lane, Your City, ST 12345</p>
-                <p className="text-gray-600">Open today until 10:00 PM</p>
+                <p className="text-gray-600">21 High Street, Hampton NH, 03842</p>
+                <p className="text-gray-600">Open Monday - Thursday until 7 PM, Friday - Saturday until 7:30pm.</p>
               </div>
             </div>
             
             <div className="bg-gray-100 p-4 rounded-lg text-center">
               <p className="text-lg mb-4">Ready to place your order?</p>
               <Link 
-                href="/menu" 
+                href="https://www.clover.com/online-ordering/zesto-pizza-hampton" 
                 className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition-colors inline-block"
               >
                 View Menu & Order
@@ -125,7 +125,7 @@ export default function Order() {
             <div className="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
               <p className="text-gray-700 text-center">
                 Delivery services connect you directly to our restaurant.<br />
-                You can also call us directly at <a href="tel:+15551234567" className="text-red-600 font-medium">(555) 123-4567</a>.
+                You can also call us directly at <a href="tel:+16039297200" className="text-red-600 font-medium">(603) 929-7200</a>.
               </p>
             </div>
           </div>
@@ -140,12 +140,12 @@ export default function Order() {
           <div className="space-y-6">
             <div>
               <h3 className="text-lg font-medium mb-2">Delivery Area</h3>
-              <p className="text-gray-600">We deliver within a 5-mile radius of our restaurant location. For addresses outside of this area, please use a delivery service or choose pickup.</p>
+              <p className="text-gray-600">We offer delivery via our partnered delivery service providers. Please refer to the specific service for area delivery details.</p>
             </div>
             
             <div>
               <h3 className="text-lg font-medium mb-2">Delivery Hours</h3>
-              <p className="text-gray-600">Monday - Thursday: 11:30am - 9:30pm<br />Friday - Saturday: 11:30am - 11:30pm<br />Sunday: 12:30pm - 8:30pm</p>
+              <p className="text-gray-600">Monday - Thursday: 11am - 7pm<br />Friday - Saturday: 11am - 7:30pm<br />Sunday: Closed</p>
             </div>
             
             <div>

@@ -41,7 +41,7 @@ const MenuCard = ({ title, description, price, image, category }: MenuItemProps)
             href="/order" 
             className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full text-sm transition-colors"
           >
-            Add to Order
+            Order Now
           </Link>
         </div>
       </div>
