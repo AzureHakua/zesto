@@ -1,10 +1,15 @@
 // src/data/menuData.ts
 
+export interface PizzaPricing {
+  small: number;
+  large: number;
+}
+
 export interface MenuItem {
   id: number;
   title: string;
   description: string;
-  price: number;
+  price: number | PizzaPricing; // Can be either a single price or pizza pricing
   image: string;
   category: string;
 }
@@ -13,132 +18,454 @@ export const menuItems: MenuItem[] = [
   // Pizzas
   {
     id: 1,
-    title: "Margherita",
-    description: "Fresh mozzarella, tomatoes, and basil on our signature crust.",
-    price: 12.99,
-    image: "margherita.jpg",
+    title: "Cheese",
+    description: "Handmade crust with our homemade sauce and a blend of mozzarella and cheddar cheese.",
+    price: { small: 10.50, large: 14.50 },
+    image: "cheese.jpg",
     category: "Pizza"
   },
   {
     id: 2,
     title: "Pepperoni",
-    description: "Classic pepperoni with mozzarella cheese and our special sauce.",
-    price: 14.99,
-    image: "pepperoni.jpg",
+    description: "Our classic cheese pizza topped with premium pepperoni.",
+    price: { small: 13.00, large: 17.25 },
+    image: "blank.jpg",
     category: "Pizza"
   },
   {
     id: 3,
-    title: "Supreme",
-    description: "Loaded with pepperoni, sausage, bell peppers, onions, and olives.",
-    price: 16.99,
-    image: "supreme.jpg",
+    title: "Special",
+    description: "A hearty combination of pepperoni, sausage, hamburger, onions, green peppers, and mushrooms.",
+    price: { small: 15.75, large: 22.99 },
+    image: "special.jpg",
     category: "Pizza"
   },
   {
     id: 4,
-    title: "Veggie Delight",
-    description: "Mushrooms, bell peppers, onions, olives, and fresh tomatoes.",
-    price: 15.99,
+    title: "Vegetarian",
+    description: "Topped with fresh onions, green peppers, tomatoes, mushrooms, and olives.",
+    price: { small: 15.75, large: 22.99 },
     image: "veggie.jpg",
     category: "Pizza"
   },
   {
     id: 5,
-    title: "BBQ Chicken",
-    description: "Grilled chicken, red onions, and BBQ sauce with a blend of cheeses.",
-    price: 17.99,
-    image: "bbq-chicken.jpg",
+    title: "Greek",
+    description: "A Mediterranean blend of spinach, onions, tomatoes, olives, and feta cheese.",
+    price: { small: 15.75, large: 22.99 },
+    image: "blank.jpg",
     category: "Pizza"
   },
   {
     id: 6,
-    title: "Hawaiian",
-    description: "Ham, pineapple, and extra cheese on our hand-tossed crust.",
-    price: 15.99,
-    image: "hawaiian.jpg",
+    title: "All-Meat",
+    description: "Loaded with sausage, ham, pastrami, bacon, and hamburger.",
+    price: { small: 15.75, large: 22.99 },
+    image: "all-meat.jpg",
     category: "Pizza"
   },
-  
-  // Appetizers
   {
     id: 7,
-    title: "Garlic Knots",
-    description: "Twisted pizza dough knots brushed with garlic butter and herbs.",
-    price: 6.99,
-    image: "garlic-knots.jpg",
-    category: "Appetizer"
+    title: "Mexican",
+    description: "Features zesty chicken with onions, tomatoes, jalapeños, and olives.",
+    price: { small: 15.75, large: 22.99 },
+    image: "mexican.jpg",
+    category: "Pizza"
   },
   {
     id: 8,
-    title: "Mozzarella Sticks",
-    description: "Breaded mozzarella sticks fried to perfection. Served with marinara.",
-    price: 8.99,
-    image: "mozzarella-sticks.jpg",
-    category: "Appetizer"
+    title: "Bianco",
+    description: "A rich blend of mozzarella, cheddar, ricotta, and feta with fresh garlic (no red sauce).",
+    price: { small: 15.75, large: 22.99 },
+    image: "bianco.jpg",
+    category: "Pizza"
   },
   {
     id: 9,
-    title: "Buffalo Wings",
-    description: "Crispy wings tossed in buffalo sauce. Served with ranch or blue cheese.",
-    price: 11.99,
-    image: "buffalo-wings.jpg",
-    category: "Appetizer"
+    title: "Mediterranean",
+    description: "Topped with fresh garlic, spinach, eggplant, tomatoes, and feta cheese.",
+    price: { small: 15.75, large: 22.99 },
+    image: "mediterranean.jpg",
+    category: "Pizza"
   },
-  
-  // Salads
   {
     id: 10,
-    title: "Caesar Salad",
-    description: "Romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
-    price: 8.99,
-    image: "caesar-salad.jpg",
-    category: "Salad"
+    title: "Chicken Primavera",
+    description: "Features tender chicken with fresh garlic, broccoli, onions, and tomatoes.",
+    price: { small: 15.75, large: 22.99 },
+    image: "primavera.jpg",
+    category: "Pizza"
   },
   {
     id: 11,
-    title: "Italian Salad",
-    description: "Mixed greens, tomatoes, onions, olives, pepperoncini, and Italian dressing.",
-    price: 9.99,
-    image: "italian-salad.jpg",
-    category: "Salad"
+    title: "Custom Calzones",
+    description: "Choose any pizza toppings to be baked into our handmade dough (price listed before toppings are added).",
+    price: 10.75,
+    image: "blank.jpg",
+    category: "Pizza"
   },
-  
-  // Pasta
+
+  // Subs
   {
     id: 12,
-    title: "Spaghetti & Meatballs",
-    description: "Classic spaghetti with homemade meatballs and marinara sauce.",
-    price: 13.99,
-    image: "spaghetti.jpg",
-    category: "Pasta"
+    title: "Steak & Cheese",
+    description: "Tender grilled flank steak with American cheese on a 10\" sub roll.",
+    price: 11.99,
+    image: "steakcheese.jpg",
+    category: "Subs"
   },
   {
     id: 13,
-    title: "Fettuccine Alfredo",
-    description: "Fettuccine pasta in a rich and creamy alfredo sauce.",
-    price: 14.99,
-    image: "fettuccine.jpg",
-    category: "Pasta"
+    title: "Steak Bomb",
+    description: "Grilled flank steak with roasted peppers, mushrooms, onions, cooked salami, and American cheese on a 10\" sub roll.",
+    price: 14.25,
+    image: "steakbomb.jpg",
+    category: "Subs"
   },
-  
-  // Desserts
   {
     id: 14,
-    title: "Tiramisu",
-    description: "Classic Italian dessert with layers of coffee-soaked ladyfingers and mascarpone.",
-    price: 6.99,
-    image: "tiramisu.jpg",
-    category: "Dessert"
+    title: "BLT",
+    description: " Crispy bacon, fresh lettuce, and ripe tomatoes on a 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
   },
   {
     id: 15,
-    title: "Chocolate Lava Cake",
-    description: "Warm chocolate cake with a molten chocolate center. Served with vanilla ice cream.",
-    price: 7.99,
-    image: "lava-cake.jpg",
-    category: "Dessert"
+    title: "Caesar Wrap",
+    description: "Crisp romaine lettuce, crunchy croutons, and parmesan cheese with creamy Caesar dressing wrapped in soft Syrian bread.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 16,
+    title: "Chicken Caesar Wrap",
+    description: "Crisp romaine lettuce, crunchy croutons, parmesan cheese, and our specialty marinated chicken with creamy Caesar dressing wrapped in soft Syrian bread.",
+    price: 13.75,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 17,
+    title: "Cheeseburger Sub",
+    description: "Juicy hamburger patties cooked well done, topped with melted American cheese on a 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 18,
+    title: "Chicken Cutlet",
+    description: "Golden fried breaded chicken breast with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 19,
+    title: "Chicken Finger Sub",
+    description: "Golden fried breaded chicken tenders with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
+    price: 10.99,
+    image: "chickenfingersub.jpg",
+    category: "Subs"
+  },
+  {
+    id: 20,
+    title: "Chicken Gyro Wrap",
+    description: "Our specialty marinated chicken with fresh onions, ripe tomatoes, and creamy tzatziki sauce wrapped in warm pita bread.",
+    price: 9.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 21,
+    title: "Chicken Parm",
+    description: "Golden fried breaded chicken breast topped with rich marinara sauce and melted provolone cheese on a toasted 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 22,
+    title: "Eggplant Parm",
+    description: "Golden fried breaded eggplant topped with rich marinara sauce and melted provolone cheese on a toasted 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 23,
+    title: "Genoa Salami",
+    description: "Premium Genoa salami with fresh lettuce, ripe tomatoes, pickles, and onions on a 10\" sub roll.",
+    price: 10.75,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 24,
+    title: "Griilled Chicken",
+    description: "Our specialty marinated grilled chicken with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
+    price: 13.25,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 25,
+    title: "Ham & Cheese",
+    description: "Sliced ham and American cheese topped with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
+    price: 10.75,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 26,
+    title: "Italian",
+    description: "Premium mortadella, genoa salami, and cooked salami with provolone cheese, topped with fresh lettuce, ripe tomatoes, pickles, and onions on a 10\" sub roll with oil.",
+    price: 10.75,
+    image: "italian.jpg",
+    category: "Subs"
+  },
+  {
+    id: 27,
+    title: "Meatball",
+    description: "Meatballs topped with rich marinara sauce and melted provolone cheese on a toasted 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 28,
+    title: "Pastrami",
+    description: "Hot, tender pastrami with mustard on a 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 29,
+    title: "Sausage",
+    description: "Grilled Italian sausage slices on a 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 30,
+    title: "Turkey",
+    description: "Tender sliced turkey with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 31,
+    title: "Veal Cutlet",
+    description: "Golden fried breaded veal topped with rich marinara sauce and melted provolone cheese on a toasted 10\" sub roll.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+  {
+    id: 32,
+    title: "Vegetarian",
+    description: "Fresh lettuce, ripe tomatoes, pickles, onions, and green peppers with American and provolone cheese on a 10\" sub roll.",
+    price: 9.99,
+    image: "blank.jpg",
+    category: "Subs"
+  },
+
+  // Salads
+  {
+    id: 33,
+    title: "Caesar Salad",
+    description: "Crisp romaine lettuce tossed with crunchy croutons, parmesan cheese, and creamy Caesar dressing. Comes with Syrian bread.",
+    price: 11.99,
+    image: "blank.jpg",
+    category: "Salads"
+  },
+  {
+    id: 34,
+    title: "Chicken Caesar Salad",
+    description: "Our classic Caesar salad topped with our specialty marinated grilled chicken. Comes with Syrian bread.",
+    price: 15.99,
+    image: "blank.jpg",
+    category: "Salads"
+  },
+  {
+    id: 35,
+    title: "Garden Salad",
+    description: "A fresh bed of crisp iceberg lettuce with ripe tomatoes, red cabbage, shredded carrots, cucumbers, and kalamata olives, served with our house dressing. Comes with Syrian bread.",
+    price: 9.99,
+    image: "blank.jpg",
+    category: "Salads"
+  },
+  {
+    id: 36,
+    title: "Chef Salad",
+    description: "Our garden salad generously topped with tender chopped turkey, ham, and provolone cheese, served with our house dressing. Comes with Syrian bread.",
+    price: 12.25,
+    image: "blank.jpg",
+    category: "Salads"
+  },
+  {
+    id: 37,
+    title: "Chicken Finger Salad",
+    description: "Our fresh garden salad topped with golden fried chicken tenders, served with our house dressing. Comes with Syrian bread.",
+    price: 15.99,
+    image: "blank.jpg",
+    category: "Salads"
+  },
+  {
+    id: 38,
+    title: "Greek Salad",
+    description: "Our garden salad with fresh onions and creamy feta cheese, served with our house dressing. Comes with Syrian bread.",
+    price: 13.50,
+    image: "blank.jpg",
+    category: "Salads"
+  },
+  {
+    id: 39,
+    title: "Greek Chicken Salad",
+    description: "Our garden salad with fresh onions, creamy feta cheese, and our specialty marinated chicken, served with our house dressing. Comes with Syrian bread.",
+    price: 18.25,
+    image: "blank.jpg",
+    category: "Salads"
+  },
+  {
+    id: 40,
+    title: "Grilled Chicken Salad",
+    description: "Our fresh garden salad topped with our specialty marinated grilled chicken, served with our house dressing. Comes with Syrian bread.",
+    price: 14.99,
+    image: "grilledchickensalad.jpg",
+    category: "Salads"
+  },
+  {
+    id: 41,
+    title: "Turkey Salad",
+    description: "Our garden salad topped with tender sliced turkey, served with our house dressing. Comes with Syrian bread.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Salads"
+  },
+
+  // Dinner Plates
+  {
+    id: 42,
+    title: "Spaghetti",
+    description: "Al dente spaghetti pasta tossed with your choice of rich marinara or savory garlic butter sauce, served with warm garlic bread. Option to add one meat choice for an additional fee.",
+    price: 12.99,
+    image: "blank.jpg",
+    category: "Dinner Box"
+  },
+  {
+    id: 43,
+    title: "Grilled Chicken",
+    description: "Our specialty marinated grilled chicken served with golden French fries.",
+    price: 17.50,
+    image: "blank.jpg",
+    category: "Dinner Box"
+  },
+  {
+    id: 44,
+    title: "Chicken Fingers",
+    description: "Golden fried breaded chicken tenders served with crispy French fries.",
+    price: 17.50,
+    image: "chickenfingers.jpg",
+    category: "Dinner Box"
+  },
+  {
+    id: 45,
+    title: "Chicken Gyro",
+    description: "Our delicious chicken gyro served with golden French fries.",
+    price: 13.99,
+    image: "blank.jpg",
+    category: "Dinner Box"
+  },
+
+  // Sides
+  {
+    id: 46,
+    title: "French Fries",
+    description: "Deep-fried till golden brown, with a crunchy exterior and fluffy interior seasoned with salt.",
+    price: 5.50,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 47,
+    title: "Sweet Potato Fries",
+    description: "Crispy sweet potato fries with a hint of natural sweetness.",
+    price: 5.99,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 48,
+    title: "Onion Rings",
+    description: "Thick-cut onion rings breaded and fried until crispy and golden.",
+    price: 7.75,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 49,
+    title: "Garlic Bread with Cheese",
+    description: "Toasted garlic bread topped with melted mozzarella cheese.",
+    price: 4.99,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 50,
+    title: "Bread Sticks with Cheese",
+    description: "Warm, soft bread sticks topped with melted mozzarella cheese, perfect for sharing.",
+    price: 9.99,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 51,
+    title: "Buffalo Fingers",
+    description: "Golden fried chicken tenders tossed in spicy buffalo sauce, served with your choice of dipping sauce.",
+    price: 11.99,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 52,
+    title: "Chicken Fingers (Side Order)",
+    description: "Crispy golden fried chicken tenders served with your choice of dipping sauce.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Sides"
   }
 ];
 
 export const categories = Array.from(new Set(menuItems.map(item => item.category)));
+
+// Helper functions
+export const isPizza = (item: MenuItem): boolean => {
+  return item.category === "Pizza";
+};
+
+export const hasPizzaPricing = (price: number | PizzaPricing): price is PizzaPricing => {
+  return typeof price === "object" && price !== null && "small" in price && "large" in price;
+};
+
+export const getPrice = (item: MenuItem, size?: "small" | "large"): number => {
+  if (hasPizzaPricing(item.price)) {
+    return size ? item.price[size] : item.price.small; // Default to small if no size specified
+  }
+  return item.price;
+};
+
+export const formatPrice = (item: MenuItem, size?: "small" | "large"): string => {
+  if (hasPizzaPricing(item.price)) {
+    if (size) {
+      return `$${item.price[size].toFixed(2)}`;
+    }
+    return `Small: $${item.price.small.toFixed(2)} | Large: $${item.price.large.toFixed(2)}`;
+  }
+  return `$${item.price.toFixed(2)}`;
+};

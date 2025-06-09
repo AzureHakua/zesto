@@ -14,20 +14,20 @@ export default function Order() {
   const [orderType, setOrderType] = useState<'pickup' | 'delivery'>('delivery');
   
   const deliveryServices: DeliveryService[] = [
-    {
+    /*{
       name: 'Uber Eats',
       logo: 'uber-eats.svg',
       link: 'https://www.ubereats.com'
-    },
+    },*/
     {
       name: 'DoorDash',
       logo: 'doordash.svg',
-      link: 'https://www.doordash.com'
+      link: 'https://www.doordash.com/store/zesto-pizza-hampton-30852932/44317947/'
     },
     {
       name: 'Grubhub',
       logo: 'grubhub.svg',
-      link: 'https://www.grubhub.com'
+      link: 'https://www.grubhub.com/restaurant/zesto-pizza-21-high-st-hampton/8812680'
     }
   ];
   
@@ -81,18 +81,19 @@ export default function Order() {
               <div className="p-4 border border-gray-200 rounded-lg">
                 <p className="font-medium">Zesto Pizza - Main Location</p>
                 <p className="text-gray-600">21 High Street, Hampton NH, 03842</p>
-                <p className="text-gray-600">Open Monday - Thursday until 7 PM, Friday - Saturday until 7:30pm.</p>
+                <p className="text-gray-600">Monday - Thursday until 7:00pm<br />Friday - Saturday until 7:30pm</p>
               </div>
             </div>
             
             <div className="bg-gray-100 p-4 rounded-lg text-center">
               <p className="text-lg mb-4">Ready to place your order?</p>
               <Link 
-                href="https://www.clover.com/online-ordering/zesto-pizza-hampton" 
+                href="https://www.orderzestopizza.com/order" 
                 className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-full transition-colors inline-block"
               >
                 View Menu & Order
               </Link>
+              <p className="text-lg mt-4">You can also call us directly at <a href="tel:+16039297200" className="text-red-600 font-medium">(603) 929-7200</a></p>
             </div>
           </div>
         </div>
@@ -104,7 +105,7 @@ export default function Order() {
           <div className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-2xl font-semibold text-gray-900 mb-6">Choose a Delivery Service</h2>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {deliveryServices.map((service) => (
                 <a
                   key={service.name}
@@ -125,7 +126,7 @@ export default function Order() {
             <div className="mt-8 p-4 bg-gray-50 rounded-lg border border-gray-200">
               <p className="text-gray-700 text-center">
                 Delivery services connect you directly to our restaurant.<br />
-                You can also call us directly at <a href="tel:+16039297200" className="text-red-600 font-medium">(603) 929-7200</a>.
+                You can also call us directly at <a href="tel:+16039297200" className="text-red-600 font-medium">(603) 929-7200</a> for pickup.
               </p>
             </div>
           </div>
@@ -145,12 +146,14 @@ export default function Order() {
             
             <div>
               <h3 className="text-lg font-medium mb-2">Delivery Hours</h3>
-              <p className="text-gray-600">Monday - Thursday: 11am - 7pm<br />Friday - Saturday: 11am - 7:30pm<br />Sunday: Closed</p>
+              <p className="text-gray-600">Monday - Thursday: 11am - 6:30pm<br />Friday - Saturday: 11am - 7:00pm<br />Sunday: Closed</p>
+              <br />
+              <p className="text-gray-600">Please note that orders close 30 minutes before closing. Hours may vary during holidays.</p>
             </div>
             
             <div>
               <h3 className="text-lg font-medium mb-2">Pickup Instructions</h3>
-              <p className="text-gray-600">Please have your order number ready when you arrive. For curbside pickup, call us when you arrive and we'll bring your order to your car.</p>
+              <p className="text-gray-600">Please have your order number ready when you arrive. For curbside pickup, call us at <a href="tel:+16039297200" className="text-red-600 font-medium">(603) 929-7200</a> when you arrive, and we'll be happy to bring your order to your car.</p>
             </div>
           </div>
         </div>

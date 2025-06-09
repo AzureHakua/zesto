@@ -48,7 +48,7 @@ export default function Menu() {
       
       {/* Menu Items Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {filteredItems.map((item) => (
+        {filteredItems.map((item, index) => (
           <MenuCard
             key={item.id}
             title={item.title}
@@ -56,6 +56,7 @@ export default function Menu() {
             price={item.price}
             image={item.image}
             category={item.category}
+            isPriority={index < 3} // Add this line
           />
         ))}
       </div>
