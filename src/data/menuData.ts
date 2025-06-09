@@ -389,7 +389,7 @@ export const menuItems: MenuItem[] = [
     title: "French Fries",
     description: "Deep-fried till golden brown, with a crunchy exterior and fluffy interior seasoned with salt.",
     price: 5.50,
-    image: "blank.jpg",
+    image: "fries.jpg",
     category: "Sides"
   },
   {
@@ -397,7 +397,7 @@ export const menuItems: MenuItem[] = [
     title: "Sweet Potato Fries",
     description: "Crispy sweet potato fries with a hint of natural sweetness.",
     price: 5.99,
-    image: "blank.jpg",
+    image: "sweetfries.jpg",
     category: "Sides"
   },
   {
@@ -426,6 +426,14 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 51,
+    title: "Chicken Fingers (Side Order)",
+    description: "Crispy golden fried chicken tenders served with your choice of dipping sauce.",
+    price: 10.99,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 52,
     title: "Buffalo Fingers",
     description: "Golden fried chicken tenders tossed in spicy buffalo sauce, served with your choice of dipping sauce.",
     price: 11.99,
@@ -433,12 +441,184 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 52,
-    title: "Chicken Fingers (Side Order)",
-    description: "Crispy golden fried chicken tenders served with your choice of dipping sauce.",
-    price: 10.99,
+    id: 53,
+    title: "Fried Ravioli",
+    description: "Cheese-filled ravioli breaded and fried until golden, served with marinara sauce for dipping.",
+    price: 10.75,
     image: "blank.jpg",
     category: "Sides"
+  },
+  {
+    id: 54,
+    title: "Jalapeno Poppers",
+    description: "Fresh jalapeños stuffed with cream cheese, breaded and fried until crispy.",
+    price: 10.75,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 55,
+    title: "Macaroni and Cheese Bites",
+    description: "Creamy macaroni and cheese breaded and fried into bite-sized golden nuggets.",
+    price: 10.75,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 56,
+    title: "Mozzarella Sticks",
+    description: "Stretchy mozzarella cheese sticks breaded and fried until golden, served with marinara sauce.",
+    price: 9.99,
+    image: "blank.jpg",
+    category: "Sides"
+  },
+  {
+    id: 57,
+    title: "Chicken Wings",
+    description: "A choice of plain or hot chicken wings served with dipping sauce.",
+    price: 18.50,
+    image: "wings.jpg",
+    category: "Sides"
+  },
+
+  // Bubble Tea
+  {
+    id: 58,
+    title: "Black Tiger Milk Tea",
+    description: "Rich black tea with milk and tapioca pearls, finished with a drizzle of brown sugar syrup.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+  {
+    id: 59,
+    title: "Coconut Milk Tea",
+    description: "Smooth black tea blended with coconut milk and tapioca pearls for a tropical twist.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+  {
+    id: 60,
+    title: "Matcha Milk Tea",
+    description: "Premium matcha green tea powder blended with milk and tapioca pearls.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+  {
+    id: 61,
+    title: "Okinawa Milk Tea",
+    description: "Traditional milk tea sweetened with Okinawa brown sugar and served with tapioca pearls.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+  {
+    id: 62,
+    title: "Taro Milk Tea",
+    description: "Purple taro root blended with milk tea and tapioca pearls for a unique, nutty flavor.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+  {
+    id: 63,
+    title: "Mango Tea",
+    description: "Tropical mango-flavored tea with tapioca pearls for a burst of summer sweetness.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+  {
+    id: 64,
+    title: "Lychee Tea",
+    description: "Delicate floral tea with sweet lychee flavor and tapioca pearls.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+  {
+    id: 65,
+    title: "Orange Peach Tea",
+    description: "Refreshing tea blend with citrusy orange and sweet peach flavors, served with tapioca pearls.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+  {
+    id: 66,
+    title: "Pineapple Tea",
+    description: "Tropical pineapple-flavored tea with tapioca pearls for a taste of paradise.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+  {
+    id: 67,
+    title: "Peach Tea",
+    description: "Sweet and refreshing peach-flavored tea served with tapioca pearls.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Bubble Tea"
+  },
+
+  // Smoothies
+ {
+    id: 68,
+    title: "Mango Smoothie",
+    description: "Tropical mango smoothie blended to perfection.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Smoothies"
+  },
+  {
+    id: 69,
+    title: "Matcha Frappe",
+    description: "Iced matcha green tea blended with milk for a refreshing caffeinated treat.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Smoothies"
+  },
+  {
+    id: 70,
+    title: "Matcha Latte",
+    description: "Premium matcha green tea powder blended with steamed milk for a smooth, earthy flavor.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Smoothies"
+  },
+  {
+    id: 71,
+    title: "Pineapple Smoothie",
+    description: "Tropical pineapple blended into a refreshing smoothie.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Smoothies"
+  },
+  {
+    id: 72,
+    title: "Taro Smoothie",
+    description: "Smooth purple taro root blended into a rich, nutty smoothie.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Smoothies"
+  },
+  {
+    id: 73,
+    title: "Taro Coconut Smoothie",
+    description: "Taro root blended with coconut for a unique, nutty tropical smoothie.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Smoothies"
+  },
+  {
+    id: 74,
+    title: "Piña Colada Smoothie",
+    description: "Classic tropical blend of pineapple and coconut for the ultimate beach drink.",
+    price: 6.25,
+    image: "blank.jpg",
+    category: "Smoothies"
   }
 ];
 
