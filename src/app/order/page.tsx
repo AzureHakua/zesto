@@ -153,7 +153,7 @@ export default function Order() {
             
             <div>
               <h3 className="text-lg font-medium mb-2">Pickup Instructions</h3>
-              <p className="text-gray-600">Please have your order number ready when you arrive. For curbside pickup, call us at <a href="tel:+16039297200" className="text-red-600 font-medium">(603) 929-7200</a> when you arrive, and we'll be happy to bring your order to your car.</p>
+              <p className="text-gray-600">For pickup, call us at <a href="tel:+16039297200" className="text-red-600 font-medium">(603) 929-7200</a>. Upon arriving, just head up to the counter and give us your name for pickup.</p>
             </div>
           </div>
         </div>
