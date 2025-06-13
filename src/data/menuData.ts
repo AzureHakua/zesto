@@ -101,7 +101,7 @@ export const menuItems: MenuItem[] = [
     title: "Custom Calzones",
     description: "Choose any pizza toppings to be baked into our handmade dough (price listed before toppings are added).",
     price: 10.75,
-    image: "blank.jpg",
+    image: "calzone.jpg",
     category: "Pizza"
   },
 
@@ -175,7 +175,7 @@ export const menuItems: MenuItem[] = [
     title: "Chicken Gyro Wrap",
     description: "Our specialty marinated chicken with fresh onions, ripe tomatoes, and creamy tzatziki sauce wrapped in warm pita bread.",
     price: 9.99,
-    image: "blank.jpg",
+    image: "chickengyro.jpg",
     category: "Subs"
   },
   {
@@ -255,7 +255,7 @@ export const menuItems: MenuItem[] = [
     title: "Turkey",
     description: "Tender sliced turkey with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
     price: 10.99,
-    image: "blank.jpg",
+    image: "turkeysub.jpg",
     category: "Subs"
   },
   {
@@ -297,7 +297,7 @@ export const menuItems: MenuItem[] = [
     title: "Garden Salad",
     description: "A fresh bed of crisp iceberg lettuce with ripe tomatoes, red cabbage, shredded carrots, cucumbers, and kalamata olives, served with our house dressing. Comes with Syrian bread.",
     price: 9.99,
-    image: "blank.jpg",
+    image: "gardensalad.jpg",
     category: "Salads"
   },
   {
