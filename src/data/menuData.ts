@@ -204,7 +204,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 24,
-    title: "Griilled Chicken",
+    title: "Grilled Chicken",
     description: "Our specialty marinated grilled chicken with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
     price: 13.25,
     image: "blank.jpg",
@@ -450,7 +450,7 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 54,
-    title: "Jalapeno Poppers",
+    title: "Jalapeño Poppers",
     description: "Fresh jalapeños stuffed with cream cheese, breaded and fried until crispy.",
     price: 10.75,
     image: "blank.jpg",
