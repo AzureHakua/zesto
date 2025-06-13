@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Zesto Pizza - Delicious Pizza in Your City',
   description: 'Zesto Pizza - Handcrafted pizzas made with the freshest ingredients.',
+  appleWebApp: {
+    title: 'Zesto Pizza',
+  }
 }
 
 export default function RootLayout({

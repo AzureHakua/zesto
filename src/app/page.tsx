@@ -9,9 +9,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-96 md:h-screen max-h-[800px] overflow-hidden">
         <div className="absolute inset-0 bg-black/60 z-10"></div>
-        <div className="bg-[url('/images/zestofront.jpg')] bg-cover bg-center h-full">
-          {/* Replace with actual image - for now using a CSS background */}
-        </div>
+        <div className="bg-[url('/images/zestofront.jpg')] bg-cover bg-center h-full"></div>
         <div className="absolute inset-0 z-20 flex items-center justify-center text-center px-4">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Handmade Artisan Pizza</h1>
