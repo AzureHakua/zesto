@@ -143,7 +143,7 @@ export const menuItems: MenuItem[] = [
     title: "Chicken Caesar Wrap",
     description: "Crisp romaine lettuce, crunchy croutons, parmesan cheese, and our specialty marinated chicken with creamy Caesar dressing wrapped in soft Syrian bread.",
     price: 13.75,
-    image: "blank.jpg",
+    image: "chickencaesarwrap.jpg",
     category: "Subs"
   },
   {
