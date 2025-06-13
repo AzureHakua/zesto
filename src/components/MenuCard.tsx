@@ -15,7 +15,7 @@ interface MenuCardProps {
   price: number | PizzaPricing;
   image: string;
   category: string;
-  isPriority?: boolean; // Add this line
+  isPriority?: boolean;
 }
 
 const MenuCard = ({ title, description, price, image, category, isPriority = false }: MenuCardProps) => {
@@ -31,7 +31,6 @@ const MenuCard = ({ title, description, price, image, category, isPriority = fal
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow">
       <div className="h-48 bg-gray-300 relative">
-        {/* Use Next.js Image component with proper sizing */}
         <div className="relative h-full w-full">
           <Image 
             src={`/images/${image}`}
@@ -39,7 +38,7 @@ const MenuCard = ({ title, description, price, image, category, isPriority = fal
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="object-cover"
-            priority={isPriority} // Add this line
+            priority={isPriority}
           />
         </div>
         

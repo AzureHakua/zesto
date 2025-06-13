@@ -14,7 +14,7 @@ export default function Order() {
   const [orderType, setOrderType] = useState<'pickup' | 'delivery'>('delivery');
   
   const deliveryServices: DeliveryService[] = [
-    /*{
+    /*{ Uber not used by client, can be added back in here if needed
       name: 'Uber Eats',
       logo: 'uber-eats.svg',
       link: 'https://www.ubereats.com'
@@ -115,7 +115,6 @@ export default function Order() {
                   className="flex flex-col items-center p-6 border border-gray-200 rounded-lg hover:border-red-600 hover:shadow-md transition-all"
                 >
                   <div className="bg-gray-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
-                    {/* Logo placeholder - replace with actual logos */}
                     <span className="text-lg font-bold">{service.name.charAt(0)}</span>
                   </div>
                   <span className="text-lg font-medium">{service.name}</span>

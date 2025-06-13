@@ -1,5 +1,5 @@
 // src/components/Footer.tsx
-"use client"; // Add this for any interactive components
+"use client";
 
 const Footer = () => {
   return (

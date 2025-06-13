@@ -98,7 +98,6 @@ export default function Home() {
             {/* Item Card 2 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="h-48 bg-gray-300 relative">
-                {/* Replace with actual image */}
                 <div className="bg-[url('/images/steakbomb.jpg')] bg-cover bg-center h-full"></div>
               </div>
               <div className="p-6">
@@ -119,7 +118,6 @@ export default function Home() {
             {/* Item Card 3 */}
             <div className="bg-white rounded-lg overflow-hidden shadow-md">
               <div className="h-48 bg-gray-300 relative">
-                {/* Replace with actual image */}
                 <div className="bg-[url('/images/grilledchickensalad.jpg')] bg-cover bg-center h-full"></div>
               </div>
               <div className="p-6">
