@@ -151,7 +151,7 @@ export const menuItems: MenuItem[] = [
     title: "Cheeseburger Sub",
     description: "Juicy hamburger patties cooked well done, topped with melted American cheese on a 10\" sub roll.",
     price: 10.99,
-    image: "blank.jpg",
+    image: "cheeseburgersub.jpg",
     category: "Subs"
   },
   {
@@ -231,7 +231,7 @@ export const menuItems: MenuItem[] = [
     title: "Meatball",
     description: "Meatballs topped with rich marinara sauce and melted provolone cheese on a toasted 10\" sub roll.",
     price: 10.99,
-    image: "blank.jpg",
+    image: "meatball.jpg",
     category: "Subs"
   },
   {
@@ -252,6 +252,14 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 30,
+    title: "Tuna",
+    description: "Tuna with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
+    price: 10.99,
+    image: "tunasub.jpg",
+    category: "Subs"
+  },
+  {
+    id: 31,
     title: "Turkey",
     description: "Tender sliced turkey with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
     price: 10.99,
@@ -259,7 +267,7 @@ export const menuItems: MenuItem[] = [
     category: "Subs"
   },
   {
-    id: 31,
+    id: 32,
     title: "Veal Cutlet",
     description: "Golden fried breaded veal topped with rich marinara sauce and melted provolone cheese on a toasted 10\" sub roll.",
     price: 10.99,
@@ -267,7 +275,7 @@ export const menuItems: MenuItem[] = [
     category: "Subs"
   },
   {
-    id: 32,
+    id: 33,
     title: "Vegetarian",
     description: "Fresh lettuce, ripe tomatoes, pickles, onions, and green peppers with American and provolone cheese on a 10\" sub roll.",
     price: 9.99,
@@ -277,7 +285,7 @@ export const menuItems: MenuItem[] = [
 
   // Salads
   {
-    id: 33,
+    id: 34,
     title: "Caesar Salad",
     description: "Crisp romaine lettuce tossed with crunchy croutons, parmesan cheese, and creamy Caesar dressing. Comes with Syrian bread.",
     price: 11.99,
@@ -285,7 +293,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 34,
+    id: 35,
     title: "Chicken Caesar Salad",
     description: "Our classic Caesar salad topped with our specialty marinated grilled chicken. Comes with Syrian bread.",
     price: 15.99,
@@ -293,7 +301,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 35,
+    id: 36,
     title: "Garden Salad",
     description: "A fresh bed of crisp iceberg lettuce with ripe tomatoes, red cabbage, shredded carrots, cucumbers, and kalamata olives, served with our house dressing. Comes with Syrian bread.",
     price: 9.99,
@@ -301,7 +309,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 36,
+    id: 37,
     title: "Chef Salad",
     description: "Our garden salad generously topped with tender chopped turkey, ham, and provolone cheese, served with our house dressing. Comes with Syrian bread.",
     price: 12.25,
@@ -309,7 +317,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 37,
+    id: 38,
     title: "Chicken Finger Salad",
     description: "Our fresh garden salad topped with golden fried chicken tenders, served with our house dressing. Comes with Syrian bread.",
     price: 15.99,
@@ -317,7 +325,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 38,
+    id: 39,
     title: "Greek Salad",
     description: "Our garden salad with fresh onions and creamy feta cheese, served with our house dressing. Comes with Syrian bread.",
     price: 13.50,
@@ -325,7 +333,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 39,
+    id: 40,
     title: "Greek Chicken Salad",
     description: "Our garden salad with fresh onions, creamy feta cheese, and our specialty marinated chicken, served with our house dressing. Comes with Syrian bread.",
     price: 18.25,
@@ -333,7 +341,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 40,
+    id: 41,
     title: "Grilled Chicken Salad",
     description: "Our fresh garden salad topped with our specialty marinated grilled chicken, served with our house dressing. Comes with Syrian bread.",
     price: 14.99,
@@ -341,7 +349,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 41,
+    id: 42,
     title: "Turkey Salad",
     description: "Our garden salad topped with tender sliced turkey, served with our house dressing. Comes with Syrian bread.",
     price: 10.99,
@@ -351,7 +359,7 @@ export const menuItems: MenuItem[] = [
 
   // Dinner Plates
   {
-    id: 42,
+    id: 43,
     title: "Spaghetti",
     description: "Al dente spaghetti pasta tossed with your choice of rich marinara or savory garlic butter sauce, served with warm garlic bread. Option to add one meat choice for an additional fee.",
     price: 12.99,
@@ -359,7 +367,7 @@ export const menuItems: MenuItem[] = [
     category: "Dinner Box"
   },
   {
-    id: 43,
+    id: 44,
     title: "Grilled Chicken",
     description: "Our specialty marinated grilled chicken served with golden French fries.",
     price: 17.50,
@@ -367,7 +375,7 @@ export const menuItems: MenuItem[] = [
     category: "Dinner Box"
   },
   {
-    id: 44,
+    id: 45,
     title: "Chicken Fingers",
     description: "Golden fried breaded chicken tenders served with crispy French fries.",
     price: 17.50,
@@ -375,7 +383,7 @@ export const menuItems: MenuItem[] = [
     category: "Dinner Box"
   },
   {
-    id: 45,
+    id: 46,
     title: "Chicken Gyro",
     description: "Our delicious chicken gyro served with golden French fries.",
     price: 13.99,
@@ -385,7 +393,7 @@ export const menuItems: MenuItem[] = [
 
   // Sides
   {
-    id: 46,
+    id: 47,
     title: "French Fries",
     description: "Deep-fried till golden brown, with a crunchy exterior and fluffy interior seasoned with salt.",
     price: 5.50,
@@ -393,7 +401,7 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 47,
+    id: 48,
     title: "Sweet Potato Fries",
     description: "Crispy sweet potato fries with a hint of natural sweetness.",
     price: 5.99,
@@ -401,7 +409,7 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 48,
+    id: 49,
     title: "Onion Rings",
     description: "Thick-cut onion rings breaded and fried until crispy and golden.",
     price: 7.75,
@@ -409,7 +417,7 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 49,
+    id: 50,
     title: "Garlic Bread with Cheese",
     description: "Toasted garlic bread topped with melted mozzarella cheese.",
     price: 4.99,
@@ -417,7 +425,7 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 50,
+    id: 51,
     title: "Bread Sticks with Cheese",
     description: "Warm, soft bread sticks topped with melted mozzarella cheese, perfect for sharing.",
     price: 9.99,
@@ -425,7 +433,7 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 51,
+    id: 52,
     title: "Chicken Fingers (Side Order)",
     description: "Crispy golden fried chicken tenders served with your choice of dipping sauce.",
     price: 10.99,
@@ -433,7 +441,7 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 52,
+    id: 53,
     title: "Buffalo Fingers",
     description: "Golden fried chicken tenders tossed in spicy buffalo sauce, served with your choice of dipping sauce.",
     price: 11.99,
@@ -441,7 +449,7 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 53,
+    id: 54,
     title: "Fried Ravioli",
     description: "Cheese-filled ravioli breaded and fried until golden, served with marinara sauce for dipping.",
     price: 10.75,
@@ -449,7 +457,7 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 54,
+    id: 55,
     title: "Jalapeño Poppers",
     description: "Fresh jalapeños stuffed with cream cheese, breaded and fried until crispy.",
     price: 10.75,
@@ -457,15 +465,15 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 55,
+    id: 56,
     title: "Macaroni and Cheese Bites",
     description: "Creamy macaroni and cheese breaded and fried into bite-sized golden nuggets.",
     price: 10.75,
-    image: "blank.jpg",
+    image: "macandcheesebites.jpg",
     category: "Sides"
   },
   {
-    id: 56,
+    id: 57,
     title: "Mozzarella Sticks",
     description: "Stretchy mozzarella cheese sticks breaded and fried until golden, served with marinara sauce.",
     price: 9.99,
@@ -473,7 +481,7 @@ export const menuItems: MenuItem[] = [
     category: "Sides"
   },
   {
-    id: 57,
+    id: 58,
     title: "Chicken Wings",
     description: "A choice of plain or hot chicken wings served with dipping sauce.",
     price: 18.50,
@@ -483,7 +491,7 @@ export const menuItems: MenuItem[] = [
 
   // Bubble Tea
   {
-    id: 58,
+    id: 59,
     title: "Black Tiger Milk Tea",
     description: "Rich black tea with milk and tapioca pearls, finished with a drizzle of brown sugar syrup.",
     price: 6.25,
@@ -491,7 +499,7 @@ export const menuItems: MenuItem[] = [
     category: "Bubble Tea"
   },
   {
-    id: 59,
+    id: 60,
     title: "Coconut Milk Tea",
     description: "Smooth black tea blended with coconut milk and tapioca pearls for a tropical twist.",
     price: 6.25,
@@ -499,7 +507,7 @@ export const menuItems: MenuItem[] = [
     category: "Bubble Tea"
   },
   {
-    id: 60,
+    id: 61,
     title: "Matcha Milk Tea",
     description: "Premium matcha green tea powder blended with milk and tapioca pearls.",
     price: 6.25,
@@ -507,7 +515,7 @@ export const menuItems: MenuItem[] = [
     category: "Bubble Tea"
   },
   {
-    id: 61,
+    id: 62,
     title: "Okinawa Milk Tea",
     description: "Traditional milk tea sweetened with Okinawa brown sugar and served with tapioca pearls.",
     price: 6.25,
@@ -515,7 +523,7 @@ export const menuItems: MenuItem[] = [
     category: "Bubble Tea"
   },
   {
-    id: 62,
+    id: 63,
     title: "Taro Milk Tea",
     description: "Purple taro root blended with milk tea and tapioca pearls for a unique, nutty flavor.",
     price: 6.25,
@@ -523,7 +531,7 @@ export const menuItems: MenuItem[] = [
     category: "Bubble Tea"
   },
   {
-    id: 63,
+    id: 64,
     title: "Mango Tea",
     description: "Tropical mango-flavored tea with tapioca pearls for a burst of summer sweetness.",
     price: 6.25,
@@ -531,7 +539,7 @@ export const menuItems: MenuItem[] = [
     category: "Bubble Tea"
   },
   {
-    id: 64,
+    id: 65,
     title: "Lychee Tea",
     description: "Delicate floral tea with sweet lychee flavor and tapioca pearls.",
     price: 6.25,
@@ -539,7 +547,7 @@ export const menuItems: MenuItem[] = [
     category: "Bubble Tea"
   },
   {
-    id: 65,
+    id: 66,
     title: "Orange Peach Tea",
     description: "Refreshing tea blend with citrusy orange and sweet peach flavors, served with tapioca pearls.",
     price: 6.25,
@@ -547,7 +555,7 @@ export const menuItems: MenuItem[] = [
     category: "Bubble Tea"
   },
   {
-    id: 66,
+    id: 67,
     title: "Pineapple Tea",
     description: "Tropical pineapple-flavored tea with tapioca pearls for a taste of paradise.",
     price: 6.25,
@@ -555,7 +563,7 @@ export const menuItems: MenuItem[] = [
     category: "Bubble Tea"
   },
   {
-    id: 67,
+    id: 68,
     title: "Peach Tea",
     description: "Sweet and refreshing peach-flavored tea served with tapioca pearls.",
     price: 6.25,
@@ -565,7 +573,7 @@ export const menuItems: MenuItem[] = [
 
   // Smoothies
  {
-    id: 68,
+    id: 69,
     title: "Mango Smoothie",
     description: "Tropical mango smoothie blended to perfection.",
     price: 6.25,
@@ -573,7 +581,7 @@ export const menuItems: MenuItem[] = [
     category: "Smoothies"
   },
   {
-    id: 69,
+    id: 70,
     title: "Matcha Frappe",
     description: "Iced matcha green tea blended with milk for a refreshing caffeinated treat.",
     price: 6.25,
@@ -581,7 +589,7 @@ export const menuItems: MenuItem[] = [
     category: "Smoothies"
   },
   {
-    id: 70,
+    id: 71,
     title: "Matcha Latte",
     description: "Premium matcha green tea powder blended with steamed milk for a smooth, earthy flavor.",
     price: 6.25,
@@ -589,7 +597,7 @@ export const menuItems: MenuItem[] = [
     category: "Smoothies"
   },
   {
-    id: 71,
+    id: 72,
     title: "Pineapple Smoothie",
     description: "Tropical pineapple blended into a refreshing smoothie.",
     price: 6.25,
@@ -597,7 +605,7 @@ export const menuItems: MenuItem[] = [
     category: "Smoothies"
   },
   {
-    id: 72,
+    id: 73,
     title: "Taro Smoothie",
     description: "Smooth purple taro root blended into a rich, nutty smoothie.",
     price: 6.25,
@@ -605,7 +613,7 @@ export const menuItems: MenuItem[] = [
     category: "Smoothies"
   },
   {
-    id: 73,
+    id: 74,
     title: "Taro Coconut Smoothie",
     description: "Taro root blended with coconut for a unique, nutty tropical smoothie.",
     price: 6.25,
@@ -613,7 +621,7 @@ export const menuItems: MenuItem[] = [
     category: "Smoothies"
   },
   {
-    id: 74,
+    id: 75,
     title: "Piña Colada Smoothie",
     description: "Classic tropical blend of pineapple and coconut for the ultimate beach drink.",
     price: 6.25,
