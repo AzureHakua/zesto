@@ -253,7 +253,7 @@ export const menuItems: MenuItem[] = [
   {
     id: 30,
     title: "Tuna",
-    description: "Tuna with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
+    description: "Yellowfin Tuna with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
     price: 10.99,
     image: "tunasub.jpg",
     category: "Subs"
