@@ -207,7 +207,7 @@ export const menuItems: MenuItem[] = [
     title: "Grilled Chicken",
     description: "Our specialty marinated grilled chicken with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
     price: 13.25,
-    image: "blank.jpg",
+    image: "grilledchickensub.jpg",
     category: "Subs"
   },
   {
@@ -313,7 +313,7 @@ export const menuItems: MenuItem[] = [
     title: "Chef Salad",
     description: "Our garden salad generously topped with tender chopped turkey, ham, and provolone cheese, served with our house dressing. Comes with Syrian bread.",
     price: 12.25,
-    image: "blank.jpg",
+    image: "chefsalad.jpg",
     category: "Salads"
   },
   {
@@ -413,7 +413,7 @@ export const menuItems: MenuItem[] = [
     title: "Onion Rings",
     description: "Thick-cut onion rings breaded and fried until crispy and golden.",
     price: 7.75,
-    image: "blank.jpg",
+    image: "onionrings.jpg",
     category: "Sides"
   },
   {
@@ -421,7 +421,7 @@ export const menuItems: MenuItem[] = [
     title: "Garlic Bread with Cheese",
     description: "Toasted garlic bread topped with melted mozzarella cheese.",
     price: 4.99,
-    image: "blank.jpg",
+    image: "garlicbread.jpg",
     category: "Sides"
   },
   {
@@ -495,7 +495,7 @@ export const menuItems: MenuItem[] = [
     title: "Black Tiger Milk Tea",
     description: "Rich black tea with milk and tapioca pearls, finished with a drizzle of brown sugar syrup.",
     price: 6.25,
-    image: "blank.jpg",
+    image: "blacktigerboba.jpg",
     category: "Bubble Tea"
   },
   {
