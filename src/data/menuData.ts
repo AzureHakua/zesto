@@ -619,6 +619,96 @@ export const menuItems: MenuItem[] = [
     price: 6.25,
     image: "blank.jpg",
     category: "Smoothies"
+  },
+
+  // Refreshers
+  {
+    id: 76,
+    title: "Mango Pineapple",
+    description: "Refreshing blend of mango and pineapple for a tropical taste.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 77,
+    title: "Orange Peach",
+    description: "Refreshing blend of orange and peach for a fruity delight.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 78,
+    title: "Mango Passion Fruit",
+    description: "Refreshing blend of mango and passion fruit for a tropical twist.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 79,
+    title: "Dragon Passion Fruit",
+    description: "Refreshing blend of dragon fruit and passion fruit for a unique tropical flavor.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 80,
+    title: "Dragon Fruit",
+    description: "Refreshing blend of dragon fruit for a unique tropical flavor.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 81,
+    title: "Lychee",
+    description: "Refreshing blend of lychee for a sweet and tangy flavor.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 82,
+    title: "Mango",
+    description: "Refreshing blend of mango for a sweet and tropical flavor.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 83,
+    title: "Orange",
+    description: "Refreshing blend of orange for a tangy and refreshing flavor.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 84,
+    title: "Passion Fruit",
+    description: "Refreshing blend of passion fruit for a tangy and fruity flavor.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 85,
+    title: "Peach",
+    description: "Refreshing blend of peach for a sweet and juicy flavor.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
+  },
+  {
+    id: 86,
+    title: "Pineapple",
+    description: "Refreshing blend of pineapple for a tangy and tropical flavor.",
+    price: 3.75,
+    image: "blank.jpg",
+    category: "Refreshers"
   }
 ];
 
