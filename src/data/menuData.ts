@@ -36,7 +36,7 @@ export const menuItems: MenuItem[] = [
     id: 3,
     title: "Special",
     description: "A hearty combination of pepperoni, sausage, hamburger, onions, green peppers, and mushrooms.",
-    price: { small: 15.75, large: 22.99 },
+    price: { small: 16.99, large: 22.99 },
     image: "special.jpg",
     category: "Pizza"
   },
@@ -44,7 +44,7 @@ export const menuItems: MenuItem[] = [
     id: 4,
     title: "Vegetarian",
     description: "Topped with fresh onions, green peppers, tomatoes, mushrooms, and olives.",
-    price: { small: 15.75, large: 22.99 },
+    price: { small: 16.99, large: 22.99 },
     image: "veggie.jpg",
     category: "Pizza"
   },
@@ -52,7 +52,7 @@ export const menuItems: MenuItem[] = [
     id: 5,
     title: "Greek",
     description: "A Mediterranean blend of spinach, onions, tomatoes, olives, and feta cheese.",
-    price: { small: 15.75, large: 22.99 },
+    price: { small: 16.99, large: 22.99 },
     image: "blank.jpg",
     category: "Pizza"
   },
@@ -60,7 +60,7 @@ export const menuItems: MenuItem[] = [
     id: 6,
     title: "All-Meat",
     description: "Loaded with sausage, ham, pastrami, bacon, and hamburger.",
-    price: { small: 15.75, large: 22.99 },
+    price: { small: 16.99, large: 22.99 },
     image: "all-meat.jpg",
     category: "Pizza"
   },
@@ -68,7 +68,7 @@ export const menuItems: MenuItem[] = [
     id: 7,
     title: "Mexican",
     description: "Features zesty chicken with onions, tomatoes, jalapeños, and olives.",
-    price: { small: 15.75, large: 22.99 },
+    price: { small: 16.99, large: 22.99 },
     image: "mexican.jpg",
     category: "Pizza"
   },
@@ -76,7 +76,7 @@ export const menuItems: MenuItem[] = [
     id: 8,
     title: "Bianco",
     description: "A rich blend of mozzarella, cheddar, ricotta, and feta with fresh garlic (no red sauce).",
-    price: { small: 15.75, large: 22.99 },
+    price: { small: 16.99, large: 22.99 },
     image: "bianco.jpg",
     category: "Pizza"
   },
@@ -84,7 +84,7 @@ export const menuItems: MenuItem[] = [
     id: 9,
     title: "Mediterranean",
     description: "Topped with fresh garlic, spinach, eggplant, tomatoes, and feta cheese.",
-    price: { small: 15.75, large: 22.99 },
+    price: { small: 16.99, large: 22.99 },
     image: "mediterranean.jpg",
     category: "Pizza"
   },
@@ -92,7 +92,7 @@ export const menuItems: MenuItem[] = [
     id: 10,
     title: "Chicken Primavera",
     description: "Features tender chicken with fresh garlic, broccoli, onions, and tomatoes.",
-    price: { small: 15.75, large: 22.99 },
+    price: { small: 16.99, large: 22.99 },
     image: "primavera.jpg",
     category: "Pizza"
   },
@@ -412,7 +412,7 @@ export const menuItems: MenuItem[] = [
     id: 50,
     title: "Garlic Bread with Cheese",
     description: "Toasted garlic bread topped with melted mozzarella cheese.",
-    price: 4.99,
+    price: 6.50,
     image: "garlicbread.jpg",
     category: "Sides"
   },
