@@ -267,7 +267,7 @@ export const menuItems: MenuItem[] = [
     category: "Subs"
   },
   {
-    id: 33,
+    id: 32,
     title: "Vegetarian",
     description: "Fresh lettuce, ripe tomatoes, pickles, onions, and green peppers with American and provolone cheese on a 10\" sub roll.",
     price: 9.99,
@@ -277,7 +277,7 @@ export const menuItems: MenuItem[] = [
 
   // Salads
   {
-    id: 34,
+    id: 33,
     title: "Caesar Salad",
     description: "Crisp romaine lettuce tossed with crunchy croutons, parmesan cheese, and creamy Caesar dressing. Comes with Syrian bread.",
     price: 11.99,
@@ -285,7 +285,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 35,
+    id: 34,
     title: "Chicken Caesar Salad",
     description: "Our classic Caesar salad topped with our specialty marinated grilled chicken. Comes with Syrian bread.",
     price: 15.99,
@@ -293,7 +293,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 36,
+    id: 35,
     title: "Garden Salad",
     description: "A fresh bed of crisp iceberg lettuce with ripe tomatoes, red cabbage, shredded carrots, cucumbers, and kalamata olives, served with our house dressing. Comes with Syrian bread.",
     price: 9.99,
@@ -301,7 +301,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 37,
+    id: 36,
     title: "Chef Salad",
     description: "Our garden salad generously topped with tender chopped turkey, ham, and provolone cheese, served with our house dressing. Comes with Syrian bread.",
     price: 12.25,
@@ -309,7 +309,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 38,
+    id: 37,
     title: "Chicken Finger Salad",
     description: "Our fresh garden salad topped with golden fried chicken tenders, served with our house dressing. Comes with Syrian bread.",
     price: 15.99,
@@ -317,7 +317,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 39,
+    id: 38,
     title: "Greek Salad",
     description: "Our garden salad with fresh onions and creamy feta cheese, served with our house dressing. Comes with Syrian bread.",
     price: 13.50,
@@ -325,7 +325,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 40,
+    id: 39,
     title: "Greek Chicken Salad",
     description: "Our garden salad with fresh onions, creamy feta cheese, and our specialty marinated chicken, served with our house dressing. Comes with Syrian bread.",
     price: 18.25,
@@ -333,7 +333,7 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 41,
+    id: 40,
     title: "Grilled Chicken Salad",
     description: "Our fresh garden salad topped with our specialty marinated grilled chicken, served with our house dressing. Comes with Syrian bread.",
     price: 14.99,
@@ -341,10 +341,18 @@ export const menuItems: MenuItem[] = [
     category: "Salads"
   },
   {
-    id: 42,
+    id: 41,
     title: "Turkey Salad",
     description: "Our garden salad topped with tender sliced turkey, served with our house dressing. Comes with Syrian bread.",
-    price: 10.99,
+    price: 12.25,
+    image: "blank.jpg",
+    category: "Salads"
+  },
+  {
+    id: 42,
+    title: "Tuna Salad",
+    description: "Our garden salad topped with yellowfin tuna, served with our house dressing. Comes with Syrian bread.",
+    price: 13.50,
     image: "blank.jpg",
     category: "Salads"
   },
@@ -378,7 +386,7 @@ export const menuItems: MenuItem[] = [
     id: 46,
     title: "Chicken Gyro",
     description: "Our delicious chicken gyro served with golden French fries.",
-    price: 13.99,
+    price: 16.75,
     image: "blank.jpg",
     category: "Dinner Box"
   },
