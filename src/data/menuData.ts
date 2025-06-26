@@ -159,7 +159,7 @@ export const menuItems: MenuItem[] = [
     title: "Chicken Cutlet",
     description: "Golden fried breaded chicken breast with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
     price: 10.99,
-    image: "blank.jpg",
+    image: "chickencutlet.jpg",
     category: "Subs"
   },
   {
@@ -191,7 +191,7 @@ export const menuItems: MenuItem[] = [
     title: "Eggplant Parm",
     description: "Golden fried breaded eggplant topped with rich marinara sauce and melted provolone cheese on a toasted 10\" sub roll.",
     price: 10.99,
-    image: "blank.jpg",
+    image: "eggplant.jpg",
     category: "Subs"
   },
   {
@@ -247,7 +247,7 @@ export const menuItems: MenuItem[] = [
     title: "Sausage",
     description: "Grilled Italian sausage slices on a 10\" sub roll.",
     price: 10.99,
-    image: "blank.jpg",
+    image: "sausagesub.jpg",
     category: "Subs"
   },
   {
@@ -264,14 +264,6 @@ export const menuItems: MenuItem[] = [
     description: "Tender sliced turkey with fresh lettuce, ripe tomatoes, onions, and pickles on a 10\" sub roll.",
     price: 10.99,
     image: "turkeysub.jpg",
-    category: "Subs"
-  },
-  {
-    id: 32,
-    title: "Veal Cutlet",
-    description: "Golden fried breaded veal topped with rich marinara sauce and melted provolone cheese on a toasted 10\" sub roll.",
-    price: 10.99,
-    image: "blank.jpg",
     category: "Subs"
   },
   {
